@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:iconSpaceReserved="false">
+    <PreferenceCategory
+        android:title="General"
+        android:iconSpaceReserved="false">
+        <EditTextPreference
+            app:iconSpaceReserved="false"
+            android:key="COUNT"
+            android:title="Count something"
+            android:defaultValue="0"
+            android:summary="0"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Specific"
+        android:iconSpaceReserved="false">
+        <ListPreference
+            app:iconSpaceReserved="false"
+            android:key="COLOR"
+            android:title="Background Color"
+            android:summary="BLACK"
+            android:entries="@array/colorNames"
+            android:entryValues="@array/colorValues"
+            android:defaultValue="#000000"/>
+    </PreferenceCategory>
+</PreferenceScreen>

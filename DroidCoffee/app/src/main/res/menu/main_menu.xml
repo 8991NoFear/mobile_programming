@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- android:orderInCategory => thang nao nho hon se nam ben trai-->
+    <item
+        android:orderInCategory="1"
+        android:title="Settings"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu_setting"/>
+    <item
+        android:orderInCategory="2"
+        android:title="Favourite"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu_favourite"/>
+    <item
+        android:orderInCategory="2"
+        android:title="About"
+        app:showAsAction="ifRoom" />
+</menu>

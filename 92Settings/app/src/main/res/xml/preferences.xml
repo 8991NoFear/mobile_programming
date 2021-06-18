@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="Genneral"
+        app:iconSpaceReserved="false">
+
+        <EditTextPreference
+            android:defaultValue="0"
+            android:key="COUNT"
+            android:summary="0"
+            android:title="count"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Specialized"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:defaultValue="#000000"
+            android:entries="@array/colorNames"
+            android:key="COLOR"
+            android:summary="BLACK"
+            android:title="background color"
+            app:entryValues="@array/colorValues"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

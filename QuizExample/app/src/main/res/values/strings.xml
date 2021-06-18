@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Quiz Example</string>
+    <string name="show_definition">show definition</string>
+    <string name="next_word">next word</string>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">9.2 Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="colorNames">
+        <item>BLACK</item>
+        <item>RED</item>
+        <item>BLUE</item>
+        <item>GREEN</item>
+    </string-array>
+    <string-array name="colorValues">
+        <item>#000000</item>
+        <item>#FF0000</item>
+        <item>#0000FF</item>
+        <item>#00FF00</item>
+    </string-array>
+</resources>
